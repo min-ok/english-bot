@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Слова в контексте — учи английский в Telegram</title>
+<meta name="description" content="Telegram-бот для изучения английских слов: интервальное повторение (Лейтнер) + живые примеры от ИИ. Начни бесплатно прямо в Telegram.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">🧠 Слова в контексте</a>
+
+    <nav class="nav" id="nav">
+      <a href="#features">Возможности</a>
+      <a href="#how">Как это работает</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#reviews">Отзывы</a>
+    </nav>
+
+    <a class="btn btn-primary btn-header" href="https://t.me/spaced_repetition_in_context_bot" target="_blank" rel="noopener">
+      Открыть бота
+    </a>
+
+    <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <p class="eyebrow">Telegram-бот · бесплатный старт</p>
+      <h1>Учи английские слова там, где и так проводишь всё время — в&nbsp;Telegram</h1>
+      <p class="hero-sub">
+        Никаких приложений и паролей. Бот сам подбирает нужные слова по алгоритму
+        интервального повторения, а нейросеть каждый раз придумывает свежий пример
+        предложения и перевод — чтобы слово запоминалось в контексте, а не зубрёжкой.
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" href="https://t.me/spaced_repetition_in_context_bot" target="_blank" rel="noopener">
+          🚀 Начать бесплатно в Telegram
+        </a>
+        <p class="hero-note">Бесплатно · без рекламы · 10 карточек в день без ограничения по времени</p>
+      </div>
+
+      <ul class="hero-stats">
+        <li><strong>A1–C1</strong><span>гибкий уровень сложности</span></li>
+        <li><strong>0₽</strong><span>чтобы начать</span></li>
+        <li><strong>~2 мин</strong><span>от старта до первой карточки</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title">Почему это работает лучше, чем блокнот со словами</h2>
+      <p class="section-sub">Всё, что нужно для того, чтобы слова реально оседали в памяти — без лишних кнопок и настроек.</p>
+
+      <div class="grid features-grid">
+        <article class="card">
+          <div class="card-icon">🧠</div>
+          <h3>Интервальное повторение</h3>
+          <p>Алгоритм Лейтнера показывает каждое слово именно тогда, когда вы вот-вот готовы его забыть — не раньше и не позже.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🤖</div>
+          <h3>Живые примеры от ИИ</h3>
+          <p>Каждая карточка — новое предложение и перевод, сгенерированные нейросетью специально под ваш уровень. Слово запоминается в контексте, а не как строчка из списка.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🎚️</div>
+          <h3>Уровень под вас</h3>
+          <p>Сложность словаря (A1–C1) и сложность самого предложения настраиваются отдельно — можно тренировать простые слова в длинных фразах и наоборот.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📚</div>
+          <h3>Готовые темы и свои слова</h3>
+          <p>Подключайте тематические списки одним нажатием или добавляйте собственные слова и фразы — сразу пачками, до 30 за раз.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🔥</div>
+          <h3>Streak, который жалко терять</h3>
+          <p>Бот считает дни подряд без пропусков и вечером мягко напомнит, если вы ещё не позанимались сегодня.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🏆</div>
+          <h3>Таблица лидеров</h3>
+          <p>Сравнивайте свой streak с другими анонимно — никаких имён и username, только азарт.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">📊</div>
+          <h3>Прогресс на виду</h3>
+          <p>Всегда видно, сколько карточек пройдено сегодня и сколько осталось до дневной цели.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">🆘</div>
+          <h3>Поддержка прямо в боте</h3>
+          <p>Есть вопрос — просто напишите его в бота. Не нужно искать почту или отдельный чат.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Как это работает</h2>
+      <p class="section-sub">От нажатия «Start» до первой выученной карточки — пара минут.</p>
+
+      <ol class="steps">
+        <li>
+          <span class="step-num">1</span>
+          <div>
+            <h3>Откройте бота и нажмите Start</h3>
+            <p>Регистрация не нужна — бот запоминает вас по Telegram-аккаунту.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <div>
+            <h3>Выберите темы или добавьте свои слова</h3>
+            <p>Подключите готовый список слов или впишите нужные вам фразы вручную.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <div>
+            <h3>Проходите карточки каждый день</h3>
+            <p>Бот сам решает, когда показать слово снова, — вам остаётся только отвечать.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-num">4</span>
+          <div>
+            <h3>Следите за streak и прогрессом</h3>
+            <p>Ежедневная мотивация в виде streak, лимитов и таблицы лидеров держит в тонусе.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section">
+    <div class="container">
+      <h2 class="section-title">Тарифы</h2>
+      <p class="section-sub">Начать можно совсем бесплатно — без ограничения по времени.</p>
+
+      <div class="grid pricing-grid">
+        <article class="price-card">
+          <h3>Free</h3>
+          <p class="price">0₽</p>
+          <p class="price-sub">навсегда</p>
+          <ul class="price-list">
+            <li>10 карточек в день</li>
+            <li>Интервальное повторение</li>
+            <li>Примеры и переводы от ИИ</li>
+            <li>Свои слова и темы</li>
+            <li>Streak и таблица лидеров</li>
+          </ul>
+          <a class="btn btn-secondary" href="https://t.me/spaced_repetition_in_context_bot" target="_blank" rel="noopener">Начать бесплатно</a>
+        </article>
+
+        <article class="price-card price-card-highlight">
+          <p class="price-badge">Популярный выбор</p>
+          <h3>Pro</h3>
+          <p class="price">500₽<span>/30 дней</span></p>
+          <p class="price-sub">автопродление, отмена в любой момент</p>
+          <ul class="price-list">
+            <li>800 карточек в день</li>
+            <li>Всё из тарифа Free</li>
+            <li>Быстрый прогресс по большим темам</li>
+            <li>Оплата картой, без лишних шагов</li>
+          </ul>
+          <a class="btn btn-primary" href="https://t.me/spaced_repetition_in_context_bot" target="_blank" rel="noopener">Открыть бота</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Что говорят пользователи</h2>
+      <p class="section-sub">Замените блоки ниже на реальные отзывы — разметка и стили уже готовы.</p>
+
+      <div class="grid reviews-grid">
+        <!-- ОТЗЫВ 1: замените имя, текст и рейтинг -->
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Впишите сюда текст отзыва.»</p>
+          <div class="review-author">
+            <div class="review-avatar">И</div>
+            <div>
+              <p class="review-name">Имя Фамилия</p>
+              <p class="review-meta">Пользователь бота</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ОТЗЫВ 2 -->
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Впишите сюда текст отзыва.»</p>
+          <div class="review-author">
+            <div class="review-avatar">И</div>
+            <div>
+              <p class="review-name">Имя Фамилия</p>
+              <p class="review-meta">Пользователь бота</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ОТЗЫВ 3 -->
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Впишите сюда текст отзыва.»</p>
+          <div class="review-author">
+            <div class="review-avatar">И</div>
+            <div>
+              <p class="review-name">Имя Фамилия</p>
+              <p class="review-meta">Пользователь бота</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ОТЗЫВ 4 -->
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Впишите сюда текст отзыва.»</p>
+          <div class="review-author">
+            <div class="review-avatar">И</div>
+            <div>
+              <p class="review-name">Имя Фамилия</p>
+              <p class="review-meta">Пользователь бота</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ОТЗЫВ 5 -->
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Впишите сюда текст отзыва.»</p>
+          <div class="review-author">
+            <div class="review-avatar">И</div>
+            <div>
+              <p class="review-name">Имя Фамилия</p>
+              <p class="review-meta">Пользователь бота</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- ОТЗЫВ 6 -->
+        <article class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">«Впишите сюда текст отзыва.»</p>
+          <div class="review-author">
+            <div class="review-avatar">И</div>
+            <div>
+              <p class="review-name">Имя Фамилия</p>
+              <p class="review-meta">Пользователь бота</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta-final">
+    <div class="container cta-final-inner">
+      <h2>Первая карточка — уже через минуту</h2>
+      <p>Не нужно ничего скачивать и запоминать пароли. Откройте бота в Telegram и начните с первого слова прямо сейчас.</p>
+      <a class="btn btn-primary btn-lg" href="https://t.me/spaced_repetition_in_context_bot" target="_blank" rel="noopener">
+        🚀 Открыть бота в Telegram
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>🧠 Слова в контексте — Telegram-бот для изучения английских слов</p>
+    <a href="https://t.me/spaced_repetition_in_context_bot" target="_blank" rel="noopener">@spaced_repetition_in_context_bot</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
